@@ -1,0 +1,10 @@
+<div class="col-lg-3 text-center">
+    <img src="{{contactLogo}}" class="img-responsive center-block" alt="" height="45" width="45">
+    <span ng-if="hrefValue">
+        <p><a href="{{hrefValue}}">{{contactText}}</a></p>
+    </span>
+    <p ng-if="!hrefValue">
+        {{contactText}}
+    </p>
+</div>
+
